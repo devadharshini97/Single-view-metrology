@@ -7,7 +7,7 @@ Created on Sun Oct  2 21:02:13 2022
 
 import numpy as np
 import cv2
-img = cv2.imread("Lenna.png")
+img = cv2.imread("input_image.png")
 cv2.imshow('image', img)
 cv2.waitKey(0)
 #annotation code begins

@@ -23,7 +23,7 @@ def edge_lines(event, x, y, flag, parameters):
             
 vertices = []
 index = 0
-img = cv2.imread("image_box.png")
+img = cv2.imread("input_image.png")
 cv2.imshow('image', img)
 cv2.setMouseCallback('image', edge_lines)
 cv2.waitKey(0)
